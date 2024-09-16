@@ -1,5 +1,6 @@
-{
-    "name": "vNodes Validators | #IBCunderdogs",
+    {
+  "$schema": "../chains.schema.json",  
+  "name": "vNodes Validators",
     "chains": [
       {
         "name": "meme",
@@ -23,9 +24,9 @@
         "name": "chihuahua",
         "address": "chihuahuavaloper1rns66d42lp038ptkfu2zf70u5g5rvu4adz83uq",
         "restake": {
-          "address": "chihuahua1rns66d42lp038ptkfu2zf70u5g5rvu4a748v0u",
+          "address": "chihuahua1zl2wl0fryq24yug2l9jrmjx73axydfn3q986tk",
           "run_time": "every 1 hour",
-          "minimum_reward": 10000
+          "minimum_reward": 1000000
         }
       },
       { 
@@ -34,7 +35,16 @@
         "restake": {
           "address": "cheqd1zl2wl0fryq24yug2l9jrmjx73axydfn3djx5p9",
           "run_time": "every 1 hour",
-          "minimum_reward": 10000
+          "minimum_reward": 100000000
+        }
+      },
+              { 
+        "name": "elystestnet",
+        "address": "elysvaloper179as9jtzcz3mschvf5f3erf0pdag6a7pn4zk0z",
+        "restake": {
+          "address": "elys179as9jtzcz3mschvf5f3erf0pdag6a7pm4ftju",
+          "run_time": "every 1 hour",
+          "minimum_reward": 100000
         }
       }
     ]
